@@ -1,10 +1,16 @@
 {
   "spec": "soksak-spec-plugin@0.0.1",
   "id": "soksak-plugin-formatter",
-  "name": "JSON 포메터",
+  "name": {
+    "en": "JSON Formatter",
+    "ko": "JSON 포메터"
+  },
   "version": "0.0.1",
   "repo": "https://github.com/soksak-ai/soksak-plugin-formatter.git",
-  "description": "JSON 파일을 2칸 들여쓰기로 정리하는 포매터(⇧⌥F). 파싱 실패 시 깨진 텍스트 대신 명확한 에러를 냅니다.",
+  "description": {
+    "en": "Formats JSON files with 2-space indentation (⇧⌥F). On parse failure, emits a clear error instead of corrupted text.",
+    "ko": "JSON 파일을 2칸 들여쓰기로 정리하는 포매터(⇧⌥F). 파싱 실패 시 깨진 텍스트 대신 명확한 에러를 냅니다."
+  },
   "entry": "main.js",
   "permissions": [
     "editor"
@@ -13,7 +19,10 @@
     "formatters": [
       {
         "id": "json",
-        "title": "JSON 정리",
+        "title": {
+          "en": "Format JSON",
+          "ko": "JSON 정리"
+        },
         "languages": [
           "json"
         ]
