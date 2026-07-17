@@ -3,13 +3,12 @@
   "id": "soksak-plugin-editor-format-json",
   "name": {
     "en": "JSON Formatter",
-    "ko": "JSON 포메터"
+    "ko": "JSON \ud3ec\uba54\ud130"
   },
   "version": "0.0.1",
-  "repo": "https://github.com/soksak-ai/soksak-plugin-editor-format-json.git",
   "description": {
     "en": "Formats JSON files with 2-space indentation. An editor extension (registers a formatter with the editor plugin). On parse failure, emits a clear error instead of corrupted text.",
-    "ko": "JSON 파일을 2칸 들여쓰기로 정리하는 포매터. 에디터 확장(에디터 플러그인에 포매터 등록). 파싱 실패 시 깨진 텍스트 대신 명확한 에러를 냅니다."
+    "ko": "JSON \ud30c\uc77c\uc744 2\uce78 \ub4e4\uc5ec\uc4f0\uae30\ub85c \uc815\ub9ac\ud558\ub294 \ud3ec\ub9e4\ud130. \uc5d0\ub514\ud130 \ud655\uc7a5(\uc5d0\ub514\ud130 \ud50c\ub7ec\uadf8\uc778\uc5d0 \ud3ec\ub9e4\ud130 \ub4f1\ub85d). \ud30c\uc2f1 \uc2e4\ud328 \uc2dc \uae68\uc9c4 \ud14d\uc2a4\ud2b8 \ub300\uc2e0 \uba85\ud655\ud55c \uc5d0\ub7ec\ub97c \ub0c5\ub2c8\ub2e4."
   },
   "entry": "main.js",
   "dependencies": {
